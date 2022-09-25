@@ -27,7 +27,7 @@ git clone https://github.com/YohanesKiolol/dicoding-certification-3.git
 
 - Once the files are on your machine, open the dicoding-certification-3 folder in [Visual Studio Code](https://code.visualstudio.com/).
 
-- Install the dependencies with command
+- Install the dependencies with command:
 
 ```bash
 npm i or npm install
