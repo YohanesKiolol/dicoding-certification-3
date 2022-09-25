@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FoodRecipes</title>
+  </head>
+  <body class="bg-secondary">
+    <main class="container">
+      <div class="row justify-content-between">
+        <div
+          style="height: fit-content"
+          class="card text-white bg-dark col-md-4 p-0 my-4"
+        >
+          <h4 class="card-header text-uppercase">Category</h4>
+          <div class="card-body">
+            <list-category></list-category>
+          </div>
+        </div>
+        <div class="card text-white bg-dark col-md-7 p-0 my-4">
+          <h4 class="card-header text-uppercase">Meals</h4>
+          <div id="meals-content" class="card-body">
+            <meal-detail class="my-4"></meal-detail>
+            <list-meal></list-meal>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
