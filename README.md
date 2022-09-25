@@ -5,6 +5,7 @@
 - HTML
 - CSS
 - Javascript
+- Webpack
 
 ## Tools
 
