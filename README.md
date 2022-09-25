@@ -36,11 +36,13 @@ npm i or npm install
 - Run the following command for:
 
 **Development**
+
 ```bash
-npm run start dev
+npm run start-dev
 ```
 
 **Build Production**
+
 ```bash
 npm run build
 ```
